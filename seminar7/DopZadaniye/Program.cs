@@ -43,8 +43,9 @@ void Printmatrix(int n)
     foreach (var item in newMatrix)
     {
         Console.Write($"{item} ");
-
     }
+    Console.WriteLine();
 }
 
 Printmatrix(4);
+Printmatrix(5);
